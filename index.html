@@ -20,20 +20,22 @@
     <title>Frontend Mentor | Skilled e-learning landing page</title>
   </head>
   <body>
+    <nav>
+      <img src="/assets/logo-dark.svg" alt="Skilled Logo" class="logo-img" />
+      <button class="btn-primary"><p>Get Started</p></button>
+    </nav>
     <header>
-      <nav>
-        <img src="/assets/logo-dark.svg" alt="Skilled Logo" />
-        <button class="btn-primary">Get Started</button>
-      </nav>
-      <section id="intro">
+      <section id="intro-text">
         <h1>Maximize skill, minimize budget</h1>
-        <p>
+        <p class="intro-para">
           Our modern courses across a range of in-demand skills will give you
           the knowledge you need to live the life you want.
         </p>
         <button class="btn-secondary">Get Started</button>
+      </section>
+      <section id="intro-img">
         <img
-          src="/assets/image-hero-mobile.png"
+          src="/assets/image-hero-mobile@2x.png"
           alt="Girl Coding and course hours and members"
           class="img-mobile"
         />
@@ -51,10 +53,12 @@
     </header>
     <main>
       <section id="courses">
-        <div id="course-intro">Check out our most popular courses!</div>
+        <div id="intro" class="course">
+          <h4>Check out our most popular courses!</h4>
+        </div>
         <div class="course">
           <img src="/assets/icon-animation.svg" alt="Animation Section Icon" />
-          <h4>Animation</h4>
+          <h5>Animation</h5>
           <p>
             Learn the latest animation techniques to create stunning motion
             design and captivate your audience.
@@ -63,7 +67,7 @@
         </div>
         <div class="course">
           <img src="/assets/icon-design.svg" alt="Design Section Icon" />
-          <h4>Design</h4>
+          <h5>Design</h5>
           <p>
             Create beautiful, usable interfaces to help shape the future of how
             the web looks.
@@ -75,7 +79,7 @@
             src="/assets/icon-photography.svg"
             alt="Photography Section Icon"
           />
-          <h4>Photography</h4>
+          <h5>Photography</h5>
           <p>
             Explore critical fundamentals like lighting, composition, and focus
             to capture exceptional photos.
@@ -84,7 +88,7 @@
         </div>
         <div class="course">
           <img src="/assets/icon-crypto.svg" alt="Crypto Section Icon" />
-          <h4>Crypto</h4>
+          <h5>Crypto</h5>
           <p>
             All you need to know to get started investing in crypto. Go from
             beginner to advanced with this 54 hour course.
@@ -93,7 +97,7 @@
         </div>
         <div class="course">
           <img src="/assets/icon-business.svg" alt="Business Section Icon" />
-          <h4>Business</h4>
+          <h5>Business</h5>
           <p>
             A step-by-step playbook to help you start, scale, and sustain your
             business without outside investment.
@@ -103,7 +107,7 @@
       </section>
     </main>
     <footer>
-      <img src="/assets/logo-dark.svg" alt="Skilled Logo" />
+      <img src="/assets/logo-light.svg" alt="Skilled Logo" class="logo-img" />
       <button class="btn-footer">Get Started</button>
     </footer>
   </body>
