@@ -187,7 +187,9 @@ footer {
   min-height: 48px;
 }
 
-@media only screen and (min-width: 376px) and (max-width: 768px) {
+/* media only screen and (min-width: 376px) and (max-width: 768px) */
+
+@media only screen and (min-width: 376px) {
   nav {
     padding: 16px 40px 0 39px;
   }
@@ -235,10 +237,97 @@ footer {
   }
 
   .course {
-    width: 41%;
+    width: 49%;
   }
 
   footer {
     padding: 36px 40px 36px 39px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  nav {
+    padding: 29px 165px 0 165px;
+    position: absolute;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    line-height: 4.41rem;
+  }
+
+  .img-tablet {
+    display: none;
+  }
+
+  .img-desktop {
+    display: block;
+  }
+
+  header {
+    height: 750px;
+    padding-left: 165px;
+  }
+
+  #intro-text {
+    width: 37%;
+  }
+
+  .intro-para {
+    font-size: var(--desktop-font-size);
+    line-height: 28px;
+  }
+
+  #intro-img {
+    width: 68%;
+  }
+
+  main {
+    padding: 0 11.5%;
+  }
+
+  #courses {
+    gap: 56px 30px;
+  }
+
+  #intro {
+    margin-bottom: 0;
+    padding-top: 56px;
+  }
+
+  .course {
+    width: 31.5%;
+    padding: 5.75% 2.9% 3.6% 2.9%;
+    /* padding: 4rem 2rem 2.5rem 2rem; */
+  }
+
+  .course img {
+    margin-top: -91px;
+  }
+
+  .course a {
+    margin-top: 7.9%;
+  }
+
+  .course h5 {
+    font-size: 1.5rem;
+    line-height: 1.89rem;
+    margin-top: 0;
+  }
+
+  .course p {
+    font-size: var(--desktop-font-size);
+    line-height: 1.75rem;
+    height: 56%;
+  }
+
+  h4 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  footer {
+    padding: 37px 165px;
   }
 }
